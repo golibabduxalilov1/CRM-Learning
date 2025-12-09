@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "analyze": "vite build --mode analyze"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@lottiefiles/dotlottie-vue": "^0.10.7",
+    "@vueuse/core": "^14.0.0",
+    "axios": "^1.13.2",
+    "chart.js": "^4.5.1",
+    "dayjs": "^1.11.19",
+    "pinia": "^3.0.4",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.21.1",
+    "postcss": "^8.4.35",
+    "postcss-nesting": "^13.0.2",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.4"
+  }
+}
