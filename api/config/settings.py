@@ -12,7 +12,7 @@ if env_file.exists():
 SECRET_KEY = env("SECRET_KEY")
 DEBUG = env("DEBUG", default=False)
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1"])
-
+print("nice")
 DJANGO_APPS = [
     "unfold",
     "unfold.contrib.filters",
